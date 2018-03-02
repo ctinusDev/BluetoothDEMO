@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A91A02E1EDE59830047C7CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A91A02D1EDE59830047C7CE /* main.m */; };
+		2A91A0371EDE59830047C7CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A91A0351EDE59830047C7CE /* Main.storyboard */; };
+		2A91A0391EDE59830047C7CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A91A0381EDE59830047C7CE /* Assets.xcassets */; };
+		2A91A03C1EDE59830047C7CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A91A03A1EDE59830047C7CE /* LaunchScreen.storyboard */; };
+		2A91A04B1EDE5B2C0047C7CE /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A91A04A1EDE5B2C0047C7CE /* CoreLocation.framework */; };
+		2A91A04E1EDE6BC60047C7CE /* Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A91A04D1EDE6BC60047C7CE /* Helper.m */; };
+		A32276F11FF277A900B09558 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A32276F01FF277A900B09558 /* ExternalAccessory.framework */; };
+		A32277131FF278C700B09558 /* ExternAccessoryPostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A32277121FF278C700B09558 /* ExternAccessoryPostViewController.m */; };
+		A32277161FF278E400B09558 /* ExternAccessoryListionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A32277151FF278E400B09558 /* ExternAccessoryListionViewController.m */; };
+		A32277191FF2790300B09558 /* BLEPostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A32277181FF2790300B09558 /* BLEPostViewController.m */; };
+		A322771C1FF2790F00B09558 /* BLEListionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A322771B1FF2790F00B09558 /* BLEListionViewController.m */; };
+		A322771E1FF34B8400B09558 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A322771D1FF34B8300B09558 /* CoreBluetooth.framework */; };
+		A32277231FF393C200B09558 /* ListionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A32277201FF393C100B09558 /* ListionViewController.m */; };
+		A32277241FF393C200B09558 /* PostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A32277221FF393C200B09558 /* PostViewController.m */; };
+		A32277271FF487FE00B09558 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A32277261FF487FE00B09558 /* AppDelegate.m */; };
+		A32277291FF4884200B09558 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A32277281FF4884200B09558 /* UserNotifications.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2A91A0291EDE59830047C7CE /* iBeaconDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iBeaconDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A91A02D1EDE59830047C7CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2A91A0361EDE59830047C7CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2A91A0381EDE59830047C7CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2A91A03B1EDE59830047C7CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2A91A03D1EDE59840047C7CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A91A04A1EDE5B2C0047C7CE /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		2A91A04C1EDE6BC60047C7CE /* Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Helper.h; sourceTree = "<group>"; };
+		2A91A04D1EDE6BC60047C7CE /* Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Helper.m; sourceTree = "<group>"; };
+		A32276F01FF277A900B09558 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		A32277111FF278C700B09558 /* ExternAccessoryPostViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExternAccessoryPostViewController.h; sourceTree = "<group>"; };
+		A32277121FF278C700B09558 /* ExternAccessoryPostViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExternAccessoryPostViewController.m; sourceTree = "<group>"; };
+		A32277141FF278E400B09558 /* ExternAccessoryListionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExternAccessoryListionViewController.h; sourceTree = "<group>"; };
+		A32277151FF278E400B09558 /* ExternAccessoryListionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExternAccessoryListionViewController.m; sourceTree = "<group>"; };
+		A32277171FF2790300B09558 /* BLEPostViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BLEPostViewController.h; sourceTree = "<group>"; };
+		A32277181FF2790300B09558 /* BLEPostViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BLEPostViewController.m; sourceTree = "<group>"; };
+		A322771A1FF2790F00B09558 /* BLEListionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BLEListionViewController.h; sourceTree = "<group>"; };
+		A322771B1FF2790F00B09558 /* BLEListionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BLEListionViewController.m; sourceTree = "<group>"; };
+		A322771D1FF34B8300B09558 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		A322771F1FF393C100B09558 /* ListionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListionViewController.h; sourceTree = "<group>"; };
+		A32277201FF393C100B09558 /* ListionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListionViewController.m; sourceTree = "<group>"; };
+		A32277211FF393C200B09558 /* PostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostViewController.h; sourceTree = "<group>"; };
+		A32277221FF393C200B09558 /* PostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostViewController.m; sourceTree = "<group>"; };
+		A32277251FF487FE00B09558 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A32277261FF487FE00B09558 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A32277281FF4884200B09558 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A91A0261EDE59830047C7CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A32277291FF4884200B09558 /* UserNotifications.framework in Frameworks */,
+				A322771E1FF34B8400B09558 /* CoreBluetooth.framework in Frameworks */,
+				A32276F11FF277A900B09558 /* ExternalAccessory.framework in Frameworks */,
+				2A91A04B1EDE5B2C0047C7CE /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A91A0201EDE59830047C7CE = {
+			isa = PBXGroup;
+			children = (
+				2A91A02B1EDE59830047C7CE /* iBeaconDemo */,
+				2A91A02A1EDE59830047C7CE /* Products */,
+				2A91A0491EDE5B2C0047C7CE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2A91A02A1EDE59830047C7CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A91A0291EDE59830047C7CE /* iBeaconDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A91A02B1EDE59830047C7CE /* iBeaconDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A32277251FF487FE00B09558 /* AppDelegate.h */,
+				A32277261FF487FE00B09558 /* AppDelegate.m */,
+				A32276F21FF2785200B09558 /* iBeacon */,
+				A322770F1FF2788000B09558 /* ExternalAccessory */,
+				A32277101FF2788E00B09558 /* BLE */,
+				2A91A04C1EDE6BC60047C7CE /* Helper.h */,
+				2A91A04D1EDE6BC60047C7CE /* Helper.m */,
+				2A91A0351EDE59830047C7CE /* Main.storyboard */,
+				2A91A0381EDE59830047C7CE /* Assets.xcassets */,
+				2A91A03A1EDE59830047C7CE /* LaunchScreen.storyboard */,
+				2A91A03D1EDE59840047C7CE /* Info.plist */,
+				2A91A02C1EDE59830047C7CE /* Supporting Files */,
+			);
+			path = iBeaconDemo;
+			sourceTree = "<group>";
+		};
+		2A91A02C1EDE59830047C7CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2A91A02D1EDE59830047C7CE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2A91A0491EDE5B2C0047C7CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A32277281FF4884200B09558 /* UserNotifications.framework */,
+				A322771D1FF34B8300B09558 /* CoreBluetooth.framework */,
+				A32276F01FF277A900B09558 /* ExternalAccessory.framework */,
+				2A91A04A1EDE5B2C0047C7CE /* CoreLocation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A32276F21FF2785200B09558 /* iBeacon */ = {
+			isa = PBXGroup;
+			children = (
+				A32277211FF393C200B09558 /* PostViewController.h */,
+				A32277221FF393C200B09558 /* PostViewController.m */,
+				A322771F1FF393C100B09558 /* ListionViewController.h */,
+				A32277201FF393C100B09558 /* ListionViewController.m */,
+			);
+			path = iBeacon;
+			sourceTree = "<group>";
+		};
+		A322770F1FF2788000B09558 /* ExternalAccessory */ = {
+			isa = PBXGroup;
+			children = (
+				A32277111FF278C700B09558 /* ExternAccessoryPostViewController.h */,
+				A32277121FF278C700B09558 /* ExternAccessoryPostViewController.m */,
+				A32277141FF278E400B09558 /* ExternAccessoryListionViewController.h */,
+				A32277151FF278E400B09558 /* ExternAccessoryListionViewController.m */,
+			);
+			path = ExternalAccessory;
+			sourceTree = "<group>";
+		};
+		A32277101FF2788E00B09558 /* BLE */ = {
+			isa = PBXGroup;
+			children = (
+				A32277171FF2790300B09558 /* BLEPostViewController.h */,
+				A32277181FF2790300B09558 /* BLEPostViewController.m */,
+				A322771A1FF2790F00B09558 /* BLEListionViewController.h */,
+				A322771B1FF2790F00B09558 /* BLEListionViewController.m */,
+			);
+			path = BLE;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A91A0281EDE59830047C7CE /* iBeaconDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A91A0401EDE59840047C7CE /* Build configuration list for PBXNativeTarget "iBeaconDemo" */;
+			buildPhases = (
+				2A91A0251EDE59830047C7CE /* Sources */,
+				2A91A0261EDE59830047C7CE /* Frameworks */,
+				2A91A0271EDE59830047C7CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iBeaconDemo;
+			productName = iBeaconDemo;
+			productReference = 2A91A0291EDE59830047C7CE /* iBeaconDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A91A0211EDE59830047C7CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = ctinus;
+				TargetAttributes = {
+					2A91A0281EDE59830047C7CE = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 5JKWX42Y3E;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 2A91A0241EDE59830047C7CE /* Build configuration list for PBXProject "iBeaconDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2A91A0201EDE59830047C7CE;
+			productRefGroup = 2A91A02A1EDE59830047C7CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A91A0281EDE59830047C7CE /* iBeaconDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A91A0271EDE59830047C7CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A91A03C1EDE59830047C7CE /* LaunchScreen.storyboard in Resources */,
+				2A91A0391EDE59830047C7CE /* Assets.xcassets in Resources */,
+				2A91A0371EDE59830047C7CE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A91A0251EDE59830047C7CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A32277161FF278E400B09558 /* ExternAccessoryListionViewController.m in Sources */,
+				A32277191FF2790300B09558 /* BLEPostViewController.m in Sources */,
+				A32277271FF487FE00B09558 /* AppDelegate.m in Sources */,
+				A32277231FF393C200B09558 /* ListionViewController.m in Sources */,
+				A322771C1FF2790F00B09558 /* BLEListionViewController.m in Sources */,
+				A32277241FF393C200B09558 /* PostViewController.m in Sources */,
+				A32277131FF278C700B09558 /* ExternAccessoryPostViewController.m in Sources */,
+				2A91A02E1EDE59830047C7CE /* main.m in Sources */,
+				2A91A04E1EDE6BC60047C7CE /* Helper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2A91A0351EDE59830047C7CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A91A0361EDE59830047C7CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2A91A03A1EDE59830047C7CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A91A03B1EDE59830047C7CE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2A91A03E1EDE59840047C7CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2A91A03F1EDE59840047C7CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A91A0411EDE59840047C7CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5JKWX42Y3E;
+				INFOPLIST_FILE = iBeaconDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ctinus.iBeaconDemo.new1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		2A91A0421EDE59840047C7CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5JKWX42Y3E;
+				INFOPLIST_FILE = iBeaconDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ctinus.iBeaconDemo.new1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A91A0241EDE59830047C7CE /* Build configuration list for PBXProject "iBeaconDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A91A03E1EDE59840047C7CE /* Debug */,
+				2A91A03F1EDE59840047C7CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A91A0401EDE59840047C7CE /* Build configuration list for PBXNativeTarget "iBeaconDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A91A0411EDE59840047C7CE /* Debug */,
+				2A91A0421EDE59840047C7CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A91A0211EDE59830047C7CE /* Project object */;
+}
